@@ -1,0 +1,18 @@
+.nav {
+    grid-area: nav;
+    padding: 20px;
+}
+
+.nav a {
+    color: brown;
+    text-decoration: none;
+}
+
+.nav a.active {
+    color: crimson;
+}
+
+.nav img {
+    width: 40px;
+    border-radius: 30px;
+}

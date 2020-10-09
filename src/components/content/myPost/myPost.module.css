@@ -1,0 +1,12 @@
+.item {
+    color: red;
+}
+.title {
+    text-align: center;
+}
+
+.newpost  textarea{
+    width: 100%;
+    color: black;
+    background-color: brown;
+}

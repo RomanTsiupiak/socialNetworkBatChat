@@ -1,0 +1,15 @@
+.item {
+    background-color: black;
+    padding-bottom: 15px;
+}
+
+.item img {
+    padding-top: 10px;
+    width: 700px;
+    padding-left: 25%;
+}
+
+.text {
+    color: brown;
+    text-align: center;
+}

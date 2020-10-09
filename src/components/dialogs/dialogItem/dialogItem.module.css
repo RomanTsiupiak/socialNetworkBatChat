@@ -1,0 +1,17 @@
+.message {
+}
+
+.message img {
+    width: 30px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.message a {
+    color: black;
+    text-decoration: none;
+}
+
+.message a.active {
+    color: red;
+}

@@ -1,0 +1,18 @@
+.head {
+  display: grid;
+
+  grid-template-areas:
+          "header header header"
+          "nav content space";
+
+  grid-template-rows: 70px 2fr;
+  grid-template-columns: 150px 10fr 150px;
+  grid-gap: 10px;
+
+  background-image: url("batman.jpg");
+  background-size: cover;
+}
+
+.dialogs {
+
+}

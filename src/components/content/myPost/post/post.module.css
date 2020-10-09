@@ -1,0 +1,10 @@
+.item {
+    color: brown;
+    width: max-content;
+    padding-top: 15px;
+}
+
+.item img {
+    width: 30px;
+    border-radius: 10px;
+}
