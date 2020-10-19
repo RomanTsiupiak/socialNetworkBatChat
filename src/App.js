@@ -5,10 +5,8 @@ import Nav from "./components/nav/nav";
 import Content from "./components/content/content";
 import Space from "./components/space/space";
 import Dialogs from "./components/dialogs/dialogs";
-import {BrowserRouter, Route} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import News from "./components/news/news";
-
-debugger;
 
 function App(props) {
   return (
@@ -18,12 +16,12 @@ function App(props) {
               <div className='dialogs'>
                   <Route path='/dialogs'
                          render={() => <Dialogs dialogs={props.appState.dialogsPage.dialogs}
-                                                messages={props.appState.dialogsPage.messages}/>}/>
+                                                messages={props.appState.dialogsPage.messages}
+                                                dispatch={props.dispatch} />}/>
                   <Route path='/content'
                          render={() => <Content posts={props.appState.contentPage.posts}
-                                                addPost={props.addPost}
                                                 newPostText={props.appState.contentPage.newPostText}
-                                                updatePostText={props.updatePostText}/>}/>
+                                                dispatch={props.dispatch} />}/>
                   <Route path='/news' component={News}/>
               </div>
 
